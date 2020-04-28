@@ -1,5 +1,5 @@
 class Transfer
-  attr_accessor :, :status
+  attr_accessor
   attr_reader
 
   def initialize sender
