@@ -1,8 +1,6 @@
 class Transfer
-  attr_accessor :sender
-  attr_reader
 
-  def initialize sender
+  def initialize 
     @sender = sender
   end
 
