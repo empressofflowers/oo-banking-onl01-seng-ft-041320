@@ -10,6 +10,6 @@ class Transfer
     end
 
   def valid?
-    @status == "open" && @balance > 0
+    @sender.valid && @receiver.valid
   end
 end
