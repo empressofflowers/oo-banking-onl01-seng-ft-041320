@@ -8,4 +8,8 @@ class Transfer
       @status = "pending"
       @amount = amount
     end
+
+  def valid?
+    @status == "open" && @balance > 0
+  end
 end
